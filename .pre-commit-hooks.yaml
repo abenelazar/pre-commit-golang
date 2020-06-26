@@ -87,4 +87,4 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go tool cover`, requires golang"
-    args: 95
+    args: "95"
