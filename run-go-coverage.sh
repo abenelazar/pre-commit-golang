@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-if [ -z $1 ]; then
+if [ $# -ne 1 ]; then
+  echo "accepts 1 param"
   exit 1
 fi
 
