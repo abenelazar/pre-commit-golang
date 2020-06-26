@@ -8,7 +8,7 @@ if [ $# -ne 1 ]; then
   echo $5
 fi
 
-THRESHOLD_PARAM=$1
+THRESHOLD_PARAM=$2
 THRESHOLD=${THRESHOLD_PARAM[1]}
 
 echo $THRESHOLD
