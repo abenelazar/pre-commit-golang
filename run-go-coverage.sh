@@ -8,11 +8,9 @@ if [ $# -ne 1 ]; then
   echo $5
 fi
 
-THRESHOLD_PARAM=$1
-THRESHOLD=${THRESHOLD_PARAM[1]}
+THRESHOLD=$(echo $1 | awk '{print $2}')
 
 echo $THRESHOLD
-echo $THRESHOLD_PARAM
 
 exit 1
 
