@@ -85,7 +85,6 @@
 -   id: go-coverage
     name: 'go-coverage'
     entry: run-go-coverage.sh
-    files: '\.go$'
     language: 'script'
     description: "Runs `go tool coverage`, requires golang"
     args: [-threshold=95]
