@@ -2,7 +2,11 @@
 
 if [ $# -ne 1 ]; then
   echo "accepts 1 param"
-  echo $#
+  echo $1
+  echo $2
+  echo $3
+  echo $4
+  echo $5
   exit 1
 fi
 
