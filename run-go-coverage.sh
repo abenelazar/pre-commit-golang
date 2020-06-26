@@ -2,6 +2,7 @@
 
 if [ $# -ne 1 ]; then
   echo "accepts 1 param"
+  echo $#
   exit 1
 fi
 
