@@ -75,9 +75,16 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go build`, requires golang"
--   id: go-mod-tidy
+    -   id: go-mod-tidy
     name: 'go-mod-tidy'
     entry: run-go-mod-tidy.sh
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod tidy -v`, requires golang"
+    -   id: go-cyclo
+    name: 'go-coverage'
+    entry: run-go-coverage.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `go tool cover`, requires golang"
+    args: [95]
