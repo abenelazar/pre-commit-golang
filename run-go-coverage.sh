@@ -15,5 +15,3 @@ if [[ $THRESHOLD -gt $cov ]]; then
     echo "coverage is below the threshold " $THRESHOLD ". got " $COVERAGE
     exit 1
 fi
-
-echo "coverage passed"
