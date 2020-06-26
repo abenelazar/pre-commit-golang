@@ -81,7 +81,7 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod tidy -v`, requires golang"
-    -   id: go-cyclo
+-   id: go-coverage
     name: 'go-coverage'
     entry: run-go-coverage.sh
     files: '\.go$'
