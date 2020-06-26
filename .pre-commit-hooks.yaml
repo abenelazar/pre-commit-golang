@@ -88,3 +88,4 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go tool coverage`, requires golang"
+    args: [-threshold=95]
