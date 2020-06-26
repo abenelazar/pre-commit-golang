@@ -87,4 +87,4 @@
     entry: run-go-coverage.sh
     language: 'script'
     description: "Runs `go tool coverage`, requires golang"
-    args: [-threshold=95]
+    args: [-threshold 95]
