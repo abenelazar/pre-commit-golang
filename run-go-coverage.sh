@@ -12,8 +12,6 @@ THRESHOLD=$(echo $1 | awk '{print $2}')
 
 echo $THRESHOLD
 
-exit 1
-
 cov=$(go tool cover -func coverage.out | grep total | awk '{print substr($3, 1, length($3)-3)}')
 if [[ $THRESHOLD -gt $cov ]]; then
     echo "coverage is below the threshold " $THRESHOLD ". got " $COVERAGE
